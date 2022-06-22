@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+body {
+    background: #f4f3fd;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.nav {
+    background: #c5bff7;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #1d119b;
+}
+
+
+.picture-flex {
+    display: flex;
+    background-image: url(https://previews.123rf.com/images/saicle/saicle1710/saicle171000175/88316421-abstract-tech-futuristic-web-header-banner-dark-blue-vector-background.jpg);
+}
+
+.picture-aside {
+    flex: 1;
+    flex-basis: 15%;
+    /* border-right: 5px solid purple; */
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: default;
+}
+
+.picture-main {
+    flex: 1;
+    flex-basis: 15%;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-background {
+    flex: 1;
+    width: 80%;
+    height: 692px;
+
+}
+
+.about-me-flex {
+    display: flex;
+}
+
+.about-me-aside {
+    flex: 1;
+    flex-basis: 15%;
+    border-right: 5px solid purple;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-text {
+    flex: 1;
+    flex-basis: 85%;
+    margin: 15px;
+    font-size: 1.2em;
+    line-height: 2.5;
+    padding-left: 20px;
+}
+
+
+
+.top-proj-flex {
+    display: flex;
+
+}
+
+.top-proj-aside {
+    flex: 1;
+    flex-basis: 15%;
+    border-right: 5px solid purple;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-proj-main {
+    flex: 1;
+    flex-basis: 85%;
+    margin: 15px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+
+}
+
+.top-txt-over {
+    position: relative
+}
+
+.top-txt-over figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 2em;
+    background: #c5bff7;
+    height: 60px;
+}
+
+.top-work{
+    color: #1d119b;
+}
+
+.project-0-pic {
+    border: 10px solid #c5bff7;
+    width: 1000px;
+}
+
+.project-0-pic:hover {
+    opacity: .75;
+}
+
+.work-flex {
+    display: flex;
+}
+
+.work-aside {
+    flex: 1;
+    flex-basis: 15%;
+    border-right: 5px solid purple;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-projects {
+    flex: 1;
+    flex-basis: 85%;
+    margin: 15px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+
+}
+
+.project-pic {
+    margin-top: 100px;
+    width: 500px;
+    border: 10px solid #c5bff7;
+}
+
+.project-pic:hover {
+    opacity: .75;
+}
+
+.top-txt-over {
+    position: relative
+}
+
+.top-txt-over figcaption {
+    position: absolute;
+    font-size: 2em;
+    background: #c5bff7;
+    color: #1d119b;
+    bottom: 10px;
+}
+
+.span-a{
+    font-size: .75em;
+}
+
+.smart-tech-cap {
+    position: relative;
+}
+
+.smart-tech-cap figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    font-size: 1.5em;
+    background: #c5bff7;
+    width: 25%;
+    color: #1d119b;
+}
+
+.form-cap {
+    position: relative;
+}
+
+.form-cap figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    font-size: 1.5em;
+    background: #c5bff7;
+    width: 53%;
+    color: #1d119b;
+}
+
+.big-data-cap {
+    position: relative;
+}
+
+.big-data-cap figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    font-size: 1.5em;
+    background: #c5bff7;
+    width: 30%;
+    color: #1d119b;
+
+}
+
+.smart-cap {
+    position: relative;
+}
+
+.smart-cap figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    font-size: 1.5em;
+    background: #c5bff7;
+    width: 33%;
+    color: #1d119b;
+
+}
+
+.span-b{
+    font-size: .65em;
+}
+
+
+
+.footer-flex {
+    display: flex;
+    padding-top: 75px;
+
+}
+
+.contact-aside {
+    flex: 1;
+    flex-basis: 15%;
+    border-right: 5px solid purple;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-list {
+    flex: 1;
+    flex-basis: 85%;
+    margin: 15px;
+    font-size: 1.3em;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.contact-space {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#about-me {
+    color: #1d119b;
+}
+
+#work {
+    color: #1d119b;
+}
+
+#contacts {
+    color: #1d119b;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+    background: #f4f3fd;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+    background: #f4f3fd;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+    background: #f4f3fd;
+    }
+}
