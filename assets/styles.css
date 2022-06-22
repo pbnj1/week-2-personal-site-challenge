@@ -311,20 +311,35 @@ h2 {
     color: #1d119b;
 }
 
-@media screen and (max-width: 992px) {
-    body {
-    background: #f4f3fd;
-    }
-}
+
 
 @media screen and (max-width: 768px) {
     body {
     background: #f4f3fd;
     }
+    .project-0-pic{
+        width:100%;
+    }
+    .project-pic{
+        width:100%;
+    }
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 992px) {
     body {
     background: #f4f3fd;
     }
+    
 }
+
+@media screen and (max-width: 1370px) {
+    body {
+    background: #f4f3fd;
+    }
+    
+}
+
+
+
+
