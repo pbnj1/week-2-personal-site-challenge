@@ -139,7 +139,7 @@ h2 {
     height: 60px;
 }
 
-.top-work{
+.top-work {
     color: #1d119b;
 }
 
@@ -200,7 +200,7 @@ h2 {
     bottom: 10px;
 }
 
-.span-a{
+.span-a {
     font-size: .75em;
 }
 
@@ -262,7 +262,7 @@ h2 {
 
 }
 
-.span-b{
+.span-b {
     font-size: .65em;
 }
 
@@ -315,44 +315,46 @@ h2 {
 
 @media screen and (max-width: 768px) {
     body {
-    background: #f4f3fd;
+        background: #f4f3fd;
     }
-    .project-0-pic{
-        width:100%;
+
+    .project-0-pic {
+        width: 100%;
     }
-    .top-txt-over{
-        font-size:50%
-}
-.smart-tech-cap{
- font-size:50%
-}
-.form-cap{
-    font-size:50%
-}
-.big-data-cap{
-    font-size:50%
-}
-.smart-cap{
-    font-size:50%
-}
+
+    .top-txt-over {
+        font-size: 50%
+    }
+
+    .smart-tech-cap {
+        font-size: 50%
+    }
+
+    .form-cap {
+        font-size: 50%
+    }
+
+    .big-data-cap {
+        font-size: 50%
+    }
+
+    .smart-cap {
+        font-size: 50%
+    }
 
 }
 
 
 @media screen and (max-width: 992px) {
     body {
-    background: #f4f3fd;
+        background: #f4f3fd;
     }
-    
+
 }
 
 @media screen and (max-width: 1370px) {
     body {
-    background: #f4f3fd;
+        background: #f4f3fd;
     }
-    
+
 }
-
-
-
-
